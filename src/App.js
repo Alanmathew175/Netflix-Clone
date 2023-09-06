@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import Banner from "./Component/Banner/Banner";
+import ModalExample from "./Component/Modal/Modal";
 import Navbar from "./Component/Navbar/Navbar";
 import Poster from "./Component/Poster/Poster";
-import FileUpload from "./Component/Upload/Upload";
 
 function App() {
     return (
@@ -12,7 +12,8 @@ function App() {
             <Banner />
             <Poster title="Netflix Orginals" />
             <Poster title="Action" isSmall />
-            <FileUpload />
+            <ModalExample />
+            {/* <FileUpload /> */}
         </div>
     );
 }
